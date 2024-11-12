@@ -24,7 +24,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/icon.webp" type="image/webp" sizes="32x32" />
+        <link
+          rel="apple-touch-icon"
+          href="/icon.webp"
+          type="image/webp"
+          sizes="32x32"
+        />
+        <meta property="og:image" content="/icon.webp" />
+        <meta property="og:image:type" content="image/webp" />
+        <meta property="og:image:width" content="32" />
+        <meta property="og:image:height" content="32" />
+
+        <meta name="twitter:image" content="/icon.webp" />
+        <meta name="twitter:image:type" content="image/webp" />
+        <meta name="twitter:image:width" content="32" />
+        <meta name="twitter:image:height" content="32" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
