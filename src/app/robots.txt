@@ -2,4 +2,4 @@ User-Agent: *
 Allow: /
 Disallow: /private/
 
-Sitemap: https://acme.com/sitemap.xml
+Sitemap: https://nextjs-config-metadata.vercel.app/sitemap.xml
