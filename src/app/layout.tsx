@@ -26,23 +26,23 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/icon.webp" type="image/webp" sizes="256x256" />
+        <link rel="icon" href="icon.webp" type="image/webp" sizes="256x256" />
         <link
           rel="apple-touch-icon"
-          href="/icon.webp"
+          href="icon.webp"
           type="image/webp"
           sizes="256x256"
         />
-        <meta property="og:image" content="/icon.webp" />
+        <meta property="og:image" content="icon.webp" />
         <meta property="og:image:type" content="image/webp" />
         <meta property="og:image:width" content="256" />
         <meta property="og:image:height" content="256" />
 
-        <meta name="twitter:image" content="/icon.webp" />
+        <meta name="twitter:image" content="icon.webp" />
         <meta name="twitter:image:type" content="image/webp" />
         <meta name="twitter:image:width" content="256" />
         <meta name="twitter:image:height" content="256" />
-        <meta name="twitter:card" content="/card.webp" />
+        <meta name="twitter:card" content="card.webp" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
