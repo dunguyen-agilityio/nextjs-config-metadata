@@ -53,6 +53,10 @@ export default function RootLayout({
         <meta property="og:image:type" content="image/webp" />
         <meta property="og:image:width" content="256" />
         <meta property="og:image:height" content="256" />
+        <link
+          rel="canonical"
+          href="https://nextjs-config-metadata.vercel.app"
+        />
 
         <meta name="twitter:title" content="next.config.js Options: mdxRs" />
         <meta
