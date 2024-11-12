@@ -47,6 +47,11 @@ export default function RootLayout({
           content="Use the new Rust compiler to compile MDX files in the App Router."
         />
         <meta
+          property="og:url"
+          content="https://nextjs-config-metadata.vercel.app"
+        />
+        <meta property="og:type" content="website" />
+        <meta
           property="og:image"
           content="https://nextjs-config-metadata.vercel.app/icon.webp"
         />
