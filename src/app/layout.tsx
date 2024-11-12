@@ -39,6 +39,14 @@ export default function RootLayout({
           sizes="256x256"
         />
         <meta
+          property="og:title"
+          content="next.config.js Options: mdxRs | Next.js"
+        />
+        <meta
+          property="og:description"
+          content="Use the new Rust compiler to compile MDX files in the App Router."
+        />
+        <meta
           property="og:image"
           content="https://nextjs-config-metadata.vercel.app/icon.webp"
         />
@@ -46,6 +54,11 @@ export default function RootLayout({
         <meta property="og:image:width" content="256" />
         <meta property="og:image:height" content="256" />
 
+        <meta name="twitter:title" content="next.config.js Options: mdxRs" />
+        <meta
+          name="twitter:description"
+          content="Use the new Rust compiler to compile MDX files in the App Router."
+        />
         <meta
           name="twitter:image"
           content="https://nextjs-config-metadata.vercel.app/icon.webp"
@@ -53,10 +66,7 @@ export default function RootLayout({
         <meta name="twitter:image:type" content="image/webp" />
         <meta name="twitter:image:width" content="256" />
         <meta name="twitter:image:height" content="256" />
-        <meta
-          name="twitter:card"
-          content="https://nextjs-config-metadata.vercel.app/card.webp"
-        />
+        <meta name="twitter:card" content="summary_large_image" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
