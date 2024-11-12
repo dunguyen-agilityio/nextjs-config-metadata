@@ -26,19 +26,19 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/icon.svg" type="image/svg" sizes="32x32" />
+        <link rel="icon" href="/window.svg" type="image/svg" sizes="32x32" />
         <link
           rel="apple-touch-icon"
-          href="/icon.svg"
+          href="/window.svg"
           type="image/svg"
           sizes="32x32"
         />
-        <meta property="og:image" content="/icon.svg" />
+        <meta property="og:image" content="/window.svg" />
         <meta property="og:image:type" content="image/svg" />
         <meta property="og:image:width" content="32" />
         <meta property="og:image:height" content="32" />
 
-        <meta name="twitter:image" content="/icon.svg" />
+        <meta name="twitter:image" content="/window.svg" />
         <meta name="twitter:image:type" content="image/svg" />
         <meta name="twitter:image:width" content="32" />
         <meta name="twitter:image:height" content="32" />
