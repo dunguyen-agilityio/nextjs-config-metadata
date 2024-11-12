@@ -42,6 +42,7 @@ export default function RootLayout({
         <meta name="twitter:image:type" content="image/webp" />
         <meta name="twitter:image:width" content="256" />
         <meta name="twitter:image:height" content="256" />
+        <meta name="twitter:card" content="/card.webp" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
