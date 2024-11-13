@@ -34,17 +34,14 @@ export default function RootLayout({
         />
         <link
           rel="apple-touch-icon"
-          href="https://nextjs-config-metadata.vercel.app/icon.webp"
+          href="https://nextjs-config-metadata.vercel.app/card.webp"
           type="image/webp"
           sizes="256x256"
         />
-        <meta
-          property="og:title"
-          content="next.config.js Options: mdxRs | Next.js"
-        />
+        <meta property="og:title" content="Next.js - Config Meta Data" />
         <meta
           property="og:description"
-          content="Use the new Rust compiler to compile MDX files in the App Router."
+          content="Next.js - Config Meta Data to show preview your website when share!"
         />
         <meta
           property="og:url"
@@ -63,10 +60,10 @@ export default function RootLayout({
           href="https://nextjs-config-metadata.vercel.app"
         />
 
-        <meta name="twitter:title" content="next.config.js Options: mdxRs" />
+        <meta name="twitter:title" content="Next.js - Config Meta Data" />
         <meta
           name="twitter:description"
-          content="Use the new Rust compiler to compile MDX files in the App Router."
+          content="Next.js - Config Meta Data to show preview your website when share!"
         />
         <meta
           name="twitter:image"
