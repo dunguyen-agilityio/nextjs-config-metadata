@@ -2,7 +2,6 @@ import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
 import { AUTH_ROUTES, PUBLIC_ROUTES } from "./constants/route";
 import { apiClient } from "./services/api-client";
-import { DataResponse } from "./types/strapi";
 import { AuthResponse } from "./types/auth";
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
