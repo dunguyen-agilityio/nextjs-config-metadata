@@ -1,10 +1,10 @@
+import { nextui } from "@nextui-org/theme";
 import type { Config } from "tailwindcss";
 
 export default {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -12,7 +12,27 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      height: {
+        header: "var(--header-height)",
+        banner: "var(--banner-height)",
+      },
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [
+    nextui({
+      themes: {
+        light: {
+          colors: {
+            primary: {
+              DEFAULT: "#fff",
+            },
+            background: { 400: "#606060", 500: "#3d3c3c" },
+            content1: { "100": "#8f8f8f" },
+          },
+        },
+        dark: {},
+      },
+    }),
+  ],
 } satisfies Config;
